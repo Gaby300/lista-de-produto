@@ -8,26 +8,24 @@ function App() {
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+     <h1>Produtos</h1>
+    <div className='produto'>
+      <img className='img' src="https://t3.ftcdn.net/jpg/06/27/23/56/360_F_627235669_iz0O2leKYRzjxAKdFP7odpp9eCOZREtN.jpg" alt="" />
+      <p className='nome'>pizza</p>
+    </div>
+
+    <div className='produto'>
+      <img className='img' src="https://churrasco.coz.br/wp-content/uploads/2021/01/hamburguer-na-churrasqueira.jpg" alt="" />
+      <p className='nome'>hamburguer</p>
+    </div>
+
+
+    <div className='produto'>
+      <img className='img' src="https://cdn.prod.website-files.com/5edf7b44b7a4f6000913a233/669906a1a1d568ab50da617b_Nomes-de-Sushi_.webp" alt="" />
+      <p className='nome'>sushi</p>
+    </div>
+
+     
     </>
   )
 }
